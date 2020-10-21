@@ -7,7 +7,7 @@ MeanRspCon = cat(1,squeeze(mean(RspContourA,2)),squeeze(mean(RspContourB,2)));
 CVSI = ( max(MeanRspCon(:,65:128)') - max(MeanRspCon(:,1:64)') ) ./ ( max(MeanRspCon(:,65:128)') + max(MeanRspCon(:,1:64)') );
 CNSI = ( max(MeanRspCon(:,17:64)') - max(MeanRspCon(:,[1:16 65:128])') ) ./ ( max(MeanRspCon(:,17:64)') + max(MeanRspCon(:,[1:16 65:128])') );
 CVCNI = ( max(MeanRspCon(:,65:128)') - max(MeanRspCon(:,17:64)') ) ./ ( max(MeanRspCon(:,65:128)') + max(MeanRspCon(:,17:64)') );
-CVPII = ( max(MeanRspCon(:,65:128)') - max(MeanRspCon(:,29:160)') ) ./ ( max(MeanRspCon(:,65:128)') + max(MeanRspCon(:,29:160)') );
+CVPII = ( max(MeanRspCon(:,65:128)') - max(MeanRspCon(:,129:160)') ) ./ ( max(MeanRspCon(:,65:128)') + max(MeanRspCon(:,129:160)') );
 
 
 %%  Response
