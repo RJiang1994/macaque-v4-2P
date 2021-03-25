@@ -383,7 +383,7 @@ for ci = 1:292
     [x(ci),ind1] = max(MeanRspCon(ci,CV));
     [y(ci),ind2] = max(MeanRspCon(ci,BARCN));
     d(ci) = x(ci) - y(ci);
-    t = squeeze( [RspSN(ci,:,CV(ind1)); RspSN(ci,:,BARCN(ind2))] / max(Rsp(ci,[CV BAR CN])) );
+    t = squeeze( [RspContour(ci,:,CV(ind1)); RspContour(ci,:,BARCN(ind2))] / max(MeanRspCon(ci,[CV BAR CN])) );
     p(ci) = anova1(t',[1:2],'off');
 end
 
