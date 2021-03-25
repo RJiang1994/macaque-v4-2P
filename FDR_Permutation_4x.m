@@ -1,5 +1,5 @@
 % The mean df/f0 map and the variance map can be found in Data_4x_A.mat and Data_4x_B.mat
-% The df/f0 map for each single trial can be found in https://pan.baidu.com/s/1Q92lLW3hib40tejptbqNkA (access code: dgip)
+% The df/f0 map for each single trial can be found in https://osf.io/xmj5c/ and also in https://pan.baidu.com/s/1Q92lLW3hib40tejptbqNkA (access code: dgip)
 
 
 rng('shuffle')
